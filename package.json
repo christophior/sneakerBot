@@ -1,0 +1,27 @@
+{
+  "name": "sneakerBot",
+  "version": "1.0.0",
+  "description": "cop those yeezy's",
+  "main": "index.js",
+  "engines": {
+    "node": "^6.9.1",
+    "npm": "^3.10.10"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Chris Villarreal",
+  "license": "ISC",
+  "devDependencies": {
+    "colors": "^1.1.2",
+    "gulp": "^3.9.1",
+    "gulp-webdriver": "^2.0.2",
+    "moment": "^2.15.1",
+    "wdio-jasmine-framework": "^0.2.6",
+    "wdio-selenium-standalone-service": "0.0.7",
+    "webdriverio": "^4.2.16"
+  },
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
+}
