@@ -1,14 +1,14 @@
 {
   "name": "sneakerBot",
   "version": "1.0.0",
-  "description": "cop those yeezy's",
+  "description": "",
   "main": "index.js",
   "engines": {
     "node": "^6.9.1",
     "npm": "^3.10.10"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "gulp east"
   },
   "author": "Chris Villarreal",
   "license": "ISC",

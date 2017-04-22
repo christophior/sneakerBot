@@ -1,5 +1,5 @@
 'use strict';
-const options = require('./options');
+const options = require('../options');
 const moment = require('moment');
 const colors = require('colors');
 
@@ -9,7 +9,7 @@ describe('buy some yeezys', function () {
       ? options.size + '.0'
       : options.size;
 
-    browser.url(options.url);
+    browser.url(options.url.eastbay);
 
     // browser.waitUntil(function () {
     //   console.log(moment().format('hh:mm:ss:SS').yellow + ' (⌐■_■) '.green
