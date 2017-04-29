@@ -11,13 +11,13 @@ describe('buy some yeezys', function () {
 
     browser.url(options.url.eastbay);
 
-    // browser.waitUntil(function () {
-    //   console.log(moment().format('hh:mm:ss:SS').yellow + ' (⌐■_■) '.green
-    //     + 'add to cart button visibility is currently: '.white
-    //     + browser.getAttribute('.add_section', 'style').magenta);
+    browser.waitUntil(function () {
+    console.log(moment().format('hh:mm:ss:SS').yellow + ' (⌐■_■) '.green
+          + 'size selection button visibility is currently: '.white
+          + browser.getAttribute('.select_size', 'style').magenta);
 
-    //   return !browser.getAttribute('.add_section', 'style').includes('display: none');
-    // }, 3000000, 'Never saw the countdown finish!', 5);
+          return !browser.getAttribute('.select_size', 'style').includes('display: none');
+    }, 3000000, 'Never saw the countdown finish!', 5);
 
     browser.click('#pdp_size_select_mask');
     browser.waitForVisible(`a[value*="${size}"]`);
